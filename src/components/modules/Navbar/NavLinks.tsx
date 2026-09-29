@@ -1,5 +1,6 @@
 "use client";
-import { NavLinksProps } from "@/types/Navbar.interface";
+
+import { NavLinksProps } from "@/types/navbar.interface";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -14,7 +15,7 @@ const NavLinks = ({ onClick, className = "" }: NavLinksProps) => {
 
   return (
     <nav
-      className={`flex flex-col items-center lg:flex-row gap-4 lg:gap-5 ${className}`}
+      className={`flex flex-col items-center lg:flex-row gap-4 lg:gap-5  text-pTag/80 ${className}`}
     >
       {/*  LINKS */}
       {links.map((link) => {

@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
-import { NavActionsProps } from "@/types/Navbar.interface";
+import { NavActionsProps } from "@/types/navbar.interface";
 
 const NavActions = ({ menuOpen, toggleMenu }: NavActionsProps) => {
   return (
-    <div className="flex items-center gap-4 xl:gap-6 text-xs lg:text-sm xl:text-base tracking-wide ">
+    <div className="flex items-center gap-4 xl:gap-6 text-xs lg:text-sm xl:text-base  text-pTag/80 tracking-wide ">
       <Link href={"/register"}>Sign in</Link>
       <Link href={"/login"}>Join us</Link>
       <div className="relative flex items-center">
