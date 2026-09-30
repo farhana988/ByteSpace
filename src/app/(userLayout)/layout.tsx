@@ -19,9 +19,6 @@ const UserLayout = async ({ children }: { children: React.ReactNode }) => {
           "
         />
 
-        {/* Optional overlay */}
-        <div className="absolute inset-0 z-0 bg-black/10" />
-
         {/* Navbar + Banner */}
         <div className="relative z-10">
           <Navbar />
@@ -30,7 +27,7 @@ const UserLayout = async ({ children }: { children: React.ReactNode }) => {
       </div>
 
       <div
-        className={`max-w-300 mx-auto min-h-screen space-y-16 lg:space-y-20 px-6 xl:px-0 mt-20 `}
+        className={`w-full max-w-300 mx-auto min-h-screen space-y-16 lg:space-y-20 px-6 xl:px-0`}
       >
         {children}
       </div>
