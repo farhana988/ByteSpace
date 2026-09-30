@@ -19,7 +19,7 @@ const HeroSection = () => {
                 className="h-[20px] w-[20px] object-contain lg:h-[40px] lg:w-[40px]"
               />
 
-              <span className="font-heading text-[8px] font-bold tracking-[-0.35px] md:text-[12px] lg:text-base xl:text-2xl">
+              <span className="font-heading font-bold tracking-[-0.35px] text-xs md:text-sm lg:text-base xl:text-2xl">
                 Logoipsum
               </span>
             </div>

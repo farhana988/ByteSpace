@@ -4,6 +4,7 @@ import CTA from "@/components/modules/CTA/CTA";
 import HeroSection from "@/components/modules/Hero/HeroSection";
 import LearningPaths from "@/components/modules/LearningPath/learningPaths";
 import Overview from "@/components/modules/Overview/Overview";
+import Testimonials from "@/components/modules/Testimonial/testimonials";
 
 const HomePage = async () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = async () => {
     </section>
     <Overview />  
     <CTA/>
+    <Testimonials />
     </>
   );
 };

@@ -4,7 +4,7 @@ import React from "react";
 const CTA = () => {
   return (
     <section
-      className="relative isolate flex min-h-[320px] md:min-h-[488px] w-full items-center justify-center overflow-hidden md:bg-contain xl:bg-cover bg-center bg-no-repeat"
+      className="relative isolate flex min-h-[320px] md:min-h-[260px] lg:min-h-[350px] xl:min-h-[488px] w-full items-center justify-center overflow-hidden md:bg-contain xl:bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url('/images/bg/CTA_bg.png')",
       }}
