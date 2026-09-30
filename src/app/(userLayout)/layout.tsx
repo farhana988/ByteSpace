@@ -27,7 +27,7 @@ const UserLayout = async ({ children }: { children: React.ReactNode }) => {
       </div>
 
       <div
-        className={`w-full max-w-360 mx-auto min-h-screen px-6 xl:px-0 mb-80`}
+        className={`w-full max-w-360 mx-auto min-h-screen mb-80`}
       >
         {children}
       </div>
