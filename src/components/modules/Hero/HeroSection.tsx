@@ -10,28 +10,30 @@ const logos = [
 
 const HeroSection = () => {
   return (
-    <div className="flex h-[202px]  items-center justify-center">
-      <div className="flex w-full items-center justify-between px-8">
-        {logos.map((logo, index) => (
-          <div
-            key={index}
-            className="flex items-center gap-[5px] text-[#858990]"
-          >
-            <Image
-              src={logo}
-              alt={`Logo ${index + 1}`}
-              width={40}
-              height={40}
-              className="w-[40px] h-[40px] object-contain"
-            />
+    <section className=" bg-[#F5F5F6]">
+      <div className="flex h-[202px] max-w-300 mx-auto items-center justify-center">
+        <div className="flex w-full items-center justify-between px-8">
+          {logos.map((logo, index) => (
+            <div
+              key={index}
+              className="flex items-center gap-[5px] text-[#858990]"
+            >
+              <Image
+                src={logo}
+                alt={`Logo ${index + 1}`}
+                width={40}
+                height={40}
+                className="w-[40px] h-[40px] object-contain"
+              />
 
-            <span className="text-2xl font-heading font-bold tracking-[-0.35px]">
-              Logoipsum
-            </span>
-          </div>
-        ))}
+              <span className="text-2xl font-heading font-bold tracking-[-0.35px]">
+                Logoipsum
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
