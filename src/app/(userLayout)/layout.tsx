@@ -1,4 +1,5 @@
 import Banner from "@/components/modules/Banner/Banner";
+import Footer from "@/components/modules/Footer/Footer";
 import Navbar from "@/components/modules/Navbar/Navbar";
 import React from "react";
 
@@ -19,9 +20,6 @@ const UserLayout = async ({ children }: { children: React.ReactNode }) => {
           "
         />
 
-        {/* Optional overlay */}
-        <div className="absolute inset-0 z-0 bg-black/10" />
-
         {/* Navbar + Banner */}
         <div className="relative z-10">
           <Navbar />
@@ -29,11 +27,10 @@ const UserLayout = async ({ children }: { children: React.ReactNode }) => {
         </div>
       </div>
 
-      <div
-        className={`max-w-300 mx-auto min-h-screen space-y-16 lg:space-y-20 px-6 xl:px-0 mt-20 `}
-      >
+      <div className={`w-full max-w-360 mx-auto min-h-screen`}>
         {children}
       </div>
+      <Footer />
     </>
   );
 };

@@ -6,7 +6,7 @@ const MobileMenu = ({ isOpen, closeMenu }: MobileMenuProps) => {
 
   return (
     <div
-      className="absolute top-full right-0 bg-[#003BE2] backdrop-blur-md  text-pTag/80
+      className="absolute top-full right-0 bg-secondary backdrop-blur-md  text-pTag/80
     lg:hidden px-6 py-4 text-center w-2/3 md:w-1/2 "
     >
       <NavLinks onClick={closeMenu} />
