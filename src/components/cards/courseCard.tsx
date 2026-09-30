@@ -46,7 +46,7 @@ export function CourseCard({ course }: CourseCardProps) {
         {/* Instructor */}
         <p className="mt-1 text-[12px] leading-[12px] text-[#8c8c8c]">
           by{" "}
-          <span className="font-medium text-[#003BE2]">
+          <span className="font-medium text-secondary">
             {course.instructor}
           </span>
         </p>
@@ -77,7 +77,7 @@ export function CourseCard({ course }: CourseCardProps) {
 
         {/* Price */}
         <div className="mt-5 flex items-baseline gap-[3px]">
-          <span className="text-[20px] font-bold text-[#003BE2]">
+          <span className="text-[20px] font-heading font-semibold text-secondary">
             {course.price}
           </span>
 

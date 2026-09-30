@@ -24,7 +24,7 @@ export function CategoryFilter() {
 
       <button
         type="button"
-        className="px-4 py-2 lg:py-3 font-medium text-[#003BE2]"
+        className="px-4 py-2 lg:py-3 font-medium text-secondary"
       >
         + More
       </button>
