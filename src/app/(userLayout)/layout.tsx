@@ -1,4 +1,5 @@
 import Banner from "@/components/modules/Banner/Banner";
+import Footer from "@/components/modules/Footer/Footer";
 import Navbar from "@/components/modules/Navbar/Navbar";
 import React from "react";
 
@@ -26,11 +27,10 @@ const UserLayout = async ({ children }: { children: React.ReactNode }) => {
         </div>
       </div>
 
-      <div
-        className={`w-full max-w-360 mx-auto min-h-screen mb-80`}
-      >
+      <div className={`w-full max-w-360 mx-auto min-h-screen`}>
         {children}
       </div>
+      <Footer />
     </>
   );
 };

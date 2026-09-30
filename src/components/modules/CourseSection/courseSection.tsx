@@ -7,13 +7,13 @@ export function CourseSection() {
     <section>
       {/* Heading */}
       <div className="text-center">
-        <h1 className="font-heading text-xl md:text-[36px] xl:text-[44px] font-semibold tracking-[-0.7px] text-[#10152b]">
+        <h1 className="font-heading text-[32px] md:text-[36px] xl:text-[44px] font-semibold tracking-[-0.7px] text-[#10152b]">
           Discover Your Passion,
           <br />
           Build Your Skills
         </h1>
 
-        <p className="mt-4 text-xs md:text-sm xl:text-lg text-[#999]">
+        <p className="mt-4 text-base xl:text-lg text-[#999]">
           At Bytespace Courses, we bring you closer to life-changing knowledge.
           Explore a variety of courses across different
           <br className="hidden sm:block" />

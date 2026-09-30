@@ -13,7 +13,7 @@ export default function Testimonials() {
         {/* Header */}
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_1fr] lg:gap-[44px]">
           <div>
-            <h2 className="mt-5 max-w-[520px] font-heading text-[32px] font-bold leading-[1.25] text-black md:text-[42px]">
+            <h2 className="mt-12 max-w-[520px] font-heading text-[32px] font-bold leading-[1.25] text-black md:text-[42px]">
               Discover What Our
               <br />
               Community Is Saying

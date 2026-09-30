@@ -22,7 +22,7 @@ export default function LearningPaths() {
       </div>
 
       {/* Categories */}
-      <div className="mt-[68px] grid grid-cols-2 justify-items-center gap-x-[40px] gap-y-5 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+      <div className="mt-[68px] grid grid-cols-2 justify-items-center gap-x-5 xl:gap-x-[40px] gap-y-5 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
         {learningPaths.map((category) => (
           <LearningPathCard key={category.title} category={category} />
         ))}
