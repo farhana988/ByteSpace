@@ -32,7 +32,7 @@ export function AuthForm({ mode }: AuthFormProps) {
       <div className="flex justify-end pt-px">
         <Button
           type="submit"
-          className="h-[46px] rounded-full bg-primary px-[24px] py-[12px] text-[15px] font-semibold text-gray-950 hover:bg-[#baf000]"
+          className="h-11.5 rounded-full bg-primary px-6 py-3 text-[15px] font-semibold text-gray-950 hover:bg-[#baf000]"
         >
           {isSignup ? "Continue" : "Sign In"}
         </Button>
