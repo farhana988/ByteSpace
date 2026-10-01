@@ -41,7 +41,7 @@ export function AuthForm({ mode }: AuthFormProps) {
       {isSignup ? (
         <p className="pt-[86px] text-center text-gray-700">
           Already have an account?{" "}
-          <Link href="/signin" className="text-secondary hover:underline">
+          <Link href="/login" className="text-secondary hover:underline">
             Login
           </Link>
         </p>

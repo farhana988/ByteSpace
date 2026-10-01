@@ -6,7 +6,7 @@ import LearningProgressCard from "./cards/LearningProgressCard";
 
 const Banner = () => {
   return (
-    <section className="relative mx-auto mt-30 h-225 w-360 overflow-hidden bg-secondary">
+    <section className="relative mx-auto mt-24 xl:mt-30 h-225 w-360 overflow-hidden bg-secondary">
       {/* Background Circle */}
       <div className="absolute -bottom-90 left-1/2 z-0 -translate-x-1/2">
         <Image

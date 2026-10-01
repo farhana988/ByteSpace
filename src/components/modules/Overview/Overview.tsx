@@ -4,7 +4,7 @@ import OverviewHero from "./OverviewHero";
 const Overview = () => {
   return (
     <section
-      className="
+      className="px-6 xl:px-0
         relative
         mt-[120px]
         overflow-hidden
@@ -14,7 +14,7 @@ const Overview = () => {
         bg-no-repeat
       "
     >
-      <div className="z-10 mx-auto max-w-300 pt-[120px]">
+      <div className="z-10 mx-auto max-w-[400px] md:max-w-[744px] lg:max-w-[1000px] xl:max-w-300 pt-0 lg:pt-[120px]">
         <OverviewHero />
         <OverviewCreator />
       </div>

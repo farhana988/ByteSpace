@@ -7,7 +7,7 @@ const OverviewCreatorVisual = () => {
   return (
     <div className="mx-auto h-[420px] w-full max-w-[530px]">
       {/* Total Revenue Card */}
-      <Card className="relative -left-4 top-[75px] h-[112px] w-[235px] overflow-hidden rounded-[15px] border-0 bg-[#073de0] p-0 text-white shadow-none">
+      <Card className="relative left-0 md:-left-24 lg:-left-4 top-[75px] h-[112px] w-[235px] overflow-hidden rounded-[15px] border-0 bg-[#073de0] p-0 text-white shadow-none">
         <div className="p-[16px]">
           <div className="text-[16px] font-medium leading-[18px]">
             Total Revenue
@@ -35,7 +35,7 @@ const OverviewCreatorVisual = () => {
       </Card>
 
       {/* Year to Date Card */}
-      <Card className="relative -left-4 top-[110px] h-[127px] w-[126px] overflow-hidden rounded-[15px] border-0 bg-[#073de0] p-0 text-white shadow-none">
+      <Card className="relative left-0 md:-left-24 lg:-left-4 top-[110px] h-[127px] w-[126px] overflow-hidden rounded-[15px] border-0 bg-[#073de0] p-0 text-white shadow-none">
         <div className="p-[16px]">
           <div className="text-[16px] font-normal leading-[17px]">
             Year to Date
@@ -56,7 +56,7 @@ const OverviewCreatorVisual = () => {
       </Card>
 
       {/* Female Person */}
-      <div className="absolute bottom-2 -left-28 z-0 h-[680px] w-[790px] overflow-hidden">
+      <div className="absolute top-0 lg:bottom-2 md:-left-28 z-0 h-[480px] md:h-[680px] w-[490px] md:w-[790px] overflow-hidden">
         <Image
           src="/images/overview/overview-female.png"
           alt=""
@@ -68,12 +68,12 @@ const OverviewCreatorVisual = () => {
       </div>
 
       {/* Happy Students Card */}
-      <div className="absolute bottom-[180px] left-[270px] z-0">
+      <div className="absolute bottom-[550px] md:bottom-[580px] lg:bottom-[180px] left-[230px] md:left-[270px] z-0">
         <HappyStudentsCard />
       </div>
 
       {/* Vector */}
-      <div className="absolute left-[285px] top-[127px] z-0 h-[215px] w-[215px]">
+      <div className="absolute left-[235px] md:left-[285px] top-[57px] md:top-[127px] z-0 h-[215px] w-[215px]">
         <Image
           src="/images/overview/overview-vector2.png"
           alt=""
