@@ -8,17 +8,7 @@ const UserLayout = async ({ children }: { children: React.ReactNode }) => {
     <>
       <div className="relative overflow-hidden">
         {/* Background image */}
-        <div
-          className="
-            absolute
-            inset-0
-            z-20
-            bg-[url('/stripe.png')]
-            bg-cover
-            bg-center
-            bg-no-repeat
-          "
-        />
+        <div className="absolute inset-0 z-20 bg-[url('/stripe.png')] bg-cover bg-center bg-no-repeat" />
 
         {/* Navbar + Banner */}
         <div className="relative z-10">
@@ -27,9 +17,7 @@ const UserLayout = async ({ children }: { children: React.ReactNode }) => {
         </div>
       </div>
 
-      <div className={`w-full max-w-360 mx-auto min-h-screen`}>
-        {children}
-      </div>
+      <div className={`w-full max-w-360 mx-auto min-h-screen`}>{children}</div>
       <Footer />
     </>
   );
