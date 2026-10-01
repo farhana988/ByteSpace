@@ -6,8 +6,8 @@ import { NavActionsProps } from "@/types/navbar.interface";
 const NavActions = ({ menuOpen, toggleMenu }: NavActionsProps) => {
   return (
     <div className="flex items-center gap-4 xl:gap-6 text-xs lg:text-sm xl:text-base  text-pTag/80 tracking-wide ">
-      <Link href={"/register"}>Sign in</Link>
-      <Link href={"/login"}>Join us</Link>
+      <Link href={"/login"}>Sign in</Link>
+      <Link href={"/signup"}>Join us</Link>
       <div className="relative flex items-center">
         <Link href="/cart" aria-label="Shopping cart">
           <div className="relative">
